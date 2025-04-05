@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Start your trade on GODABEG NEXUS - Exchange gift cards, PayPal, CashApp, Zelle, Venmo, and bank transfers.">
+    <title>Start Trade - GODABEG NEXUS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <img src="./image/logo.jpg" alt="Logo" class="logo">
+            <h1>Start Your Trade</h1>
+            <p>Fast, Secure, and Reliable Transactions</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="trade-form-section">
+        <h2>Trade Form</h2>
+        <p>Fill out the form below to start your trade.</p>
+        
+        <form id="trade-form">
+            <label for="asset-type">Select Asset Type:</label>
+            <select id="asset-type" required>
+                <option value="" disabled selected>Select an asset</option>
+                <option value="Gift Cards">Gift Cards</option>
+                <option value="PayPal">PayPal</option>
+                <option value="CashApp">CashApp</option>
+                <option value="Zelle">Zelle</option>
+                <option value="Venmo">Venmo</option>
+                <option value="Bank Transfer">Bank Transfer</option>
+            </select>
+
+            <label for="amount">Enter Amount:</label>
+            <input type="number" id="amount" required placeholder="Enter amount (e.g., $100)">
+
+            <label for="contact">Your Contact (WhatsApp):</label>
+            <input type="text" id="contact" required placeholder="Enter WhatsApp number">
+
+            <button type="submit">Submit Trade Request</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 GODABEG NEXUS. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
